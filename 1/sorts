@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd lab0
+
+wc -c petilil6 >> petilil6
+ls wailord6 | sort -r
+
+cat ponyta, klink, venusaur, vanillish, yanma, tranquill | grep "st" -i &> err 
+cat porygonz3 | grep "y$" -evn &> err
+ls -R v* | wc -c | sort &> err
+
+ls -lR v* 2> /dev/null | tail -4 | sort -nk8 
+
